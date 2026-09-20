@@ -22,8 +22,8 @@ overfull boxes, or fatal errors.
 ## Current checksums
 
 ```text
-a824cf93c869572f85fc8cd9976cb3ae9e7464b4dda507138d216d0ccb3d7c6f  ase_main_manuscript.pdf
-6d1aa698f97e04e7177c46aa41799362d90c648c3d7845199db10a37a57ab62b  ase_main_manuscript_latex.zip
+eca4c5ec04410bf8c3c8578e2bd945189900a0e683f6615ad7b51d215464b70c  ase_main_manuscript.pdf
+509c323dbb932c96570ae5de6f711a449f05a2151c1c169b6f16b8e6f869ca39  ase_main_manuscript_latex.zip
 bd360ba28fec3615d172a1150846e6b9dde485324b7d292bda5de4e15e470341  ase_cover_letter_draft.pdf
 ```
 

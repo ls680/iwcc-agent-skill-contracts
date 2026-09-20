@@ -4,7 +4,7 @@
   "description": "<p>This versioned archive contains the implementation, frozen protocols, native execution records, model-control outputs, tests, analysis, results, and manuscript sources for Incremental Witnessed Contract Compilation (IWCC).</p><p>IWCC compiles successful ALFWorld and ScienceWorld traces into deterministic, provenance-carrying structural contracts and screens complete skill-program revisions before environment execution. The frozen confirmation contains 60 zero-overlap tasks and 300 candidate programs. IWCC achieved 88.12% balanced accuracy, a 10.64-point absolute gain over the strongest predeclared comparator (task-stratified 95% CI 8.88-12.50 points; paired permutation p = 9.9999e-6), with zero false rejections among 98 controls.</p><p>The archive includes integrity manifests and CPU-only verification scripts. Third-party ALFWorld data and model weights are not redistributed. The pinned ScienceWorld JAR is redistributed under Apache-2.0 with its license and notice.</p>",
   "creators": [
     {
-      "name": "Song, Liang",
+      "name": "Liang, Song",
       "affiliation": "Business School, Xi'an International University",
       "orcid": "0009-0002-6109-0639"
     },

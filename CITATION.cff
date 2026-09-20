@@ -5,8 +5,8 @@ type: software
 version: 0.1.0
 date-released: 2026-09-20
 authors:
-  - family-names: "Song"
-    given-names: "Liang"
+  - family-names: "Liang"
+    given-names: "Song"
     email: "liangsong_1976@126.com"
     orcid: "https://orcid.org/0009-0002-6109-0639"
     affiliation: "Business School, Xi'an International University"
@@ -28,8 +28,8 @@ preferred-citation:
   type: article
   title: "From Traces to Witnessed Contracts: Incremental Precondition-Effect Compilation for LLM Agent Skills"
   authors:
-    - family-names: "Song"
-      given-names: "Liang"
+    - family-names: "Liang"
+      given-names: "Song"
       orcid: "https://orcid.org/0009-0002-6109-0639"
     - family-names: "Zhai"
       given-names: "Jiabao"
