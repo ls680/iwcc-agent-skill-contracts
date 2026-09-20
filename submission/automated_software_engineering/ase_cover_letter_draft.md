@@ -39,13 +39,14 @@ success or replace native execution.
 
 Source code, data, frozen protocols, analysis scripts, and the reproducibility
 bundle are publicly available at
-https://github.com/ls680/iwcc-agent-skill-contracts under Apache-2.0.
+https://github.com/ls680/iwcc-agent-skill-contracts under Apache-2.0 and
+archived at https://doi.org/10.5281/zenodo.22851666.
 
-Before this letter is uploaded, insert the versioned archival DOI and retain the
-following declaration only after both authors confirm it: the manuscript is
-original, is not under consideration elsewhere, and has been approved by both
-authors. The authors declare no competing interests and no specific funding.
-Generative-AI assistance is disclosed in the manuscript.
+Before this letter is uploaded, retain the following declaration only after
+both authors confirm it: the manuscript is original, is not under consideration
+elsewhere, and has been approved by both authors. The authors declare no
+competing interests and no specific funding. Generative-AI assistance is
+disclosed in the manuscript.
 
 Thank you for considering our work.
 

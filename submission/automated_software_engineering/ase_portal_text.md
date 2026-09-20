@@ -37,17 +37,17 @@ approved the final manuscript.
 ## Data availability
 
 The data supporting the findings of this study are openly available at
-https://github.com/ls680/iwcc-agent-skill-contracts. A versioned archival DOI
-will be added before submission. Third-party ALFWorld and ScienceWorld assets
-are not redistributed; pinned upstream revisions, paths, licenses, and
-integrity checks are provided instead.
+https://doi.org/10.5281/zenodo.22851666, with the public source repository at
+https://github.com/ls680/iwcc-agent-skill-contracts. Third-party ALFWorld and
+ScienceWorld assets are not redistributed; pinned upstream revisions, paths,
+licenses, and integrity checks are provided instead.
 
 ## Code availability
 
 The source code, frozen protocols, analysis scripts, tests, and execution
 records are openly available at
-https://github.com/ls680/iwcc-agent-skill-contracts. The archived release DOI
-will be added before submission.
+https://github.com/ls680/iwcc-agent-skill-contracts and in the versioned Zenodo
+archive at https://doi.org/10.5281/zenodo.22851666.
 
 ## Suggested classifications
 

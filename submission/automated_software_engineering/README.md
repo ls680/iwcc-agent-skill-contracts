@@ -1,6 +1,6 @@
 # Automated Software Engineering submission package
 
-Prepared on 18 September 2026 for paper 05, *From Traces to Witnessed
+Prepared on 20 September 2026 for paper 05, *From Traces to Witnessed
 Contracts: Incremental Precondition-Effect Compilation for LLM Agent Skills*.
 
 ## Primary files
@@ -22,14 +22,14 @@ overfull boxes, or fatal errors.
 ## Current checksums
 
 ```text
-f37bcc1f98a115b1c38c8462f3b13630b6e61ecfbc6a2a4c7f0ab84d7287c2dd  ase_main_manuscript.pdf
-b82e965cf4f4922a14ea3f562044e23ba21cb2f9670ca887d6a23d4358c6571f  ase_main_manuscript_latex.zip
-c6611774584272a80bfd22649df153e5693c879857c28128fc79637f8cc60197  ase_cover_letter_draft.pdf
+a824cf93c869572f85fc8cd9976cb3ae9e7464b4dda507138d216d0ccb3d7c6f  ase_main_manuscript.pdf
+6d1aa698f97e04e7177c46aa41799362d90c648c3d7845199db10a37a57ab62b  ase_main_manuscript_latex.zip
+bd360ba28fec3615d172a1150846e6b9dde485324b7d292bda5de4e15e470341  ase_cover_letter_draft.pdf
 ```
 
 ## Important status
 
-This is not yet the final upload set. The public repository URL is present, but
-the versioned archival DOI and dataset citation must still be inserted before
-submission. The cover letter is visibly marked as a pre-submission draft. Use
-the checklist before uploading any file to the journal.
+The public repository URL, reserved Zenodo DOI, and dataset citation are
+present. The cover letter remains visibly marked as a pre-submission draft, and
+the archive must be published after file verification. Use the checklist before
+uploading any file to the journal.

@@ -34,10 +34,10 @@ unresolved citations, overfull boxes, or fatal LaTeX errors.
 
 ## Submission status
 
-Journal formatting is complete, and the public source URL is included. Before
-actual submission, add the versioned archival DOI to the Data Availability and
-Code Availability statements. The corresponding author must also confirm
-originality, exclusive submission, and co-author approval in the target-specific checklist under
+Journal formatting is complete, and the public source URL and versioned Zenodo
+DOI are included. Before actual submission, the corresponding author must
+confirm originality, exclusive submission, and co-author approval in the
+target-specific checklist under
 `../../submission/automated_software_engineering/`.
 
 Journal guidance checked on 18 September 2026:

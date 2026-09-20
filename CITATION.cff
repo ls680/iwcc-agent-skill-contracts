@@ -15,6 +15,8 @@ authors:
     email: "zhaijiabao123@126.com"
     affiliation: "School of Management and Economics, North China University of Water Resources and Electric Power"
 repository-code: "https://github.com/ls680/iwcc-agent-skill-contracts"
+repository-artifact: "https://doi.org/10.5281/zenodo.22851666"
+doi: "10.5281/zenodo.22851666"
 license: "Apache-2.0"
 keywords:
   - "LLM agents"

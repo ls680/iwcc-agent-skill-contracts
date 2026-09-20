@@ -49,7 +49,7 @@ the predeclared strongest comparator, with a task-stratified 95% interval of
 - Competing interests: none declared
 - Public repository: https://github.com/ls680/iwcc-agent-skill-contracts
 - License: Apache-2.0
-- Archival DOI: pending
+- Archival DOI: https://doi.org/10.5281/zenodo.22851666
 
 Target-specific manuscript and portal materials are under
 `submission/automated_software_engineering/`.

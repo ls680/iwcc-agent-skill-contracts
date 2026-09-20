@@ -64,10 +64,10 @@ replace native testing.
 - Public source repository URL: https://github.com/ls680/iwcc-agent-skill-contracts
 - Repository host: GitHub
 - Repository license: Apache-2.0
-- Versioned archival DOI: PENDING
-- Dataset citation for the reference list: PENDING
+- Versioned archival DOI: https://doi.org/10.5281/zenodo.22851666
+- Dataset citation for the reference list: Song, L., & Zhai, J. (2026). *Incremental Witnessed Contract Compilation: Software, Data, and Reproducibility Artifacts* (Version 0.1.0). Zenodo. https://doi.org/10.5281/zenodo.22851666
 
 The existing local artifact is
 `artifacts/iwcc_reproducibility_bundle.tar.gz`; its contents are covered by
-`artifacts/release_manifest.sha256`. The GitHub URL is public, but the archival
-DOI is still required before the final journal upload set is generated.
+`artifacts/release_manifest.sha256`. The GitHub URL is public and the versioned
+archive is registered under DOI `10.5281/zenodo.22851666`.

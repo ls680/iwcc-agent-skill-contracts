@@ -1,7 +1,7 @@
 # Automated Software Engineering initial submission checklist
 
-Status: journal formatting and public source repository complete; archival DOI
-and author confirmations still block actual submission.
+Status: journal formatting, public source repository, and reserved archival DOI
+complete; Zenodo publication and author confirmations still block submission.
 
 ## Completed
 
@@ -26,8 +26,8 @@ and author confirmations still block actual submission.
 ## Required before upload
 
 - [ ] Publish a versioned archive and obtain its DOI.
-- [ ] Add the DOI to `main.tex`, then rebuild the PDF and source ZIP.
-- [ ] Add the archived dataset citation to `references.bib` and cite it in the Data Availability statement.
+- [x] Add the reserved DOI to `main.tex`, then rebuild the PDF and source ZIP.
+- [x] Add the archived dataset citation to `references.bib` and cite it in the Data Availability statement.
 - [ ] Liang Song and Zhai Jiabao confirm the author order and contribution statement for this manuscript.
 - [ ] Both authors confirm that this manuscript is original and is not under consideration elsewhere.
 - [ ] Both authors confirm the no-funding and no-competing-interest statements.
@@ -35,5 +35,5 @@ and author confirmations still block actual submission.
 - [ ] Rebuild and inspect the journal-generated submission PDF.
 - [ ] Enter author contributions and competing interests in the portal as well as in the manuscript.
 
-Do not submit the current package until the versioned archival DOI and its
-dataset citation have been inserted.
+Do not submit the current package until the verified Zenodo draft has been
+published and both authors have completed the remaining confirmations.

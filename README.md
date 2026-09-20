@@ -84,8 +84,9 @@ data.
 
 ## Citation
 
-Citation metadata are available in [CITATION.cff](CITATION.cff). A versioned
-archival DOI will be added before journal submission.
+Citation metadata are available in [CITATION.cff](CITATION.cff). The versioned
+software, data, and reproducibility archive is available from Zenodo at
+https://doi.org/10.5281/zenodo.22851666.
 
 ## License and third-party material
 
