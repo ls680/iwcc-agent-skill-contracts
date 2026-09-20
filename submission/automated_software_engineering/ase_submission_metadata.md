@@ -65,7 +65,7 @@ replace native testing.
 - Repository host: GitHub
 - Repository license: Apache-2.0
 - Versioned archival DOI: https://doi.org/10.5281/zenodo.22851666
-- Dataset citation for the reference list: Song, L., & Zhai, J. (2026). *Incremental Witnessed Contract Compilation: Software, Data, and Reproducibility Artifacts* (Version 0.1.0). Zenodo. https://doi.org/10.5281/zenodo.22851666
+- Dataset citation for the reference list: Song, L., & Zhai, J. (2026). *From Traces to Witnessed Contracts: Incremental Precondition-Effect Compilation for LLM Agent Skills (Software and Reproducibility Artifacts)* (Version 0.1.0). Zenodo. https://doi.org/10.5281/zenodo.22851666
 
 The existing local artifact is
 `artifacts/iwcc_reproducibility_bundle.tar.gz`; its contents are covered by

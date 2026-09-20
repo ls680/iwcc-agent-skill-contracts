@@ -34,13 +34,12 @@ unresolved citations, overfull boxes, or fatal LaTeX errors.
 
 ## Submission status
 
-Journal formatting is complete, and the public source URL and versioned Zenodo
-DOI are included. Before actual submission, the corresponding author must
-confirm originality, exclusive submission, and co-author approval in the
-target-specific checklist under
-`../../submission/automated_software_engineering/`.
+Journal formatting is complete, the public source URL and versioned Zenodo DOI
+are included, and both authors have confirmed originality, exclusive
+submission, author order, contributions, funding, and competing interests. The
+remaining actions are portal entry and inspection of the journal-generated PDF.
 
-Journal guidance checked on 18 September 2026:
+Journal guidance checked on 20 September 2026:
 
 - https://link.springer.com/journal/10515/submission-guidelines
 - https://link.springer.com/journal/10515/aims-and-scope

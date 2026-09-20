@@ -1,4 +1,4 @@
-# PRE-SUBMISSION DRAFT - DO NOT UPLOAD YET
+# Cover Letter
 
 20 September 2026
 
@@ -42,11 +42,11 @@ bundle are publicly available at
 https://github.com/ls680/iwcc-agent-skill-contracts under Apache-2.0 and
 archived at https://doi.org/10.5281/zenodo.22851666.
 
-Before this letter is uploaded, retain the following declaration only after
-both authors confirm it: the manuscript is original, is not under consideration
-elsewhere, and has been approved by both authors. The authors declare no
-competing interests and no specific funding. Generative-AI assistance is
-disclosed in the manuscript.
+The manuscript is original, has not been published, and is not under
+consideration elsewhere. Both authors have reviewed and approved the submitted
+version, author order, and contribution statement. The authors received no
+funding for this research and have no relevant financial or non-financial
+interests to disclose. Generative-AI assistance is disclosed in the manuscript.
 
 Thank you for considering our work.
 

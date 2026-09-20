@@ -7,7 +7,7 @@ Contracts: Incremental Precondition-Effect Compilation for LLM Agent Skills*.
 
 - `ase_main_manuscript.pdf`: compiled 13-page journal manuscript
 - `ase_main_manuscript_latex.zip`: flat, self-contained LaTeX source archive
-- `ase_cover_letter_draft.pdf`: one-page editor letter marked as a draft
+- `ase_cover_letter.pdf`: finalized one-page editor letter
 - `ase_submission_metadata.md`: title, abstract, author details, and declarations
 - `ase_portal_text.md`: short fields for the submission system
 - `ase_submission_checklist.md`: completed and blocking items
@@ -22,14 +22,13 @@ overfull boxes, or fatal errors.
 ## Current checksums
 
 ```text
-eca4c5ec04410bf8c3c8578e2bd945189900a0e683f6615ad7b51d215464b70c  ase_main_manuscript.pdf
-509c323dbb932c96570ae5de6f711a449f05a2151c1c169b6f16b8e6f869ca39  ase_main_manuscript_latex.zip
-bd360ba28fec3615d172a1150846e6b9dde485324b7d292bda5de4e15e470341  ase_cover_letter_draft.pdf
+aa2b10dd58af817d7e81cee3953c244521149b6bf67f83be3540baa0546c2d0c  ase_main_manuscript.pdf
+64895e34642f043c7db4247042464d50d0ee9e085b6e52a4d50ad91b51388757  ase_main_manuscript_latex.zip
+e3f285d69d248d799c8b4ed8126e0aaf4ce0f6c7357ecfd1ac7c42a6db5318cc  ase_cover_letter.pdf
 ```
 
 ## Important status
 
-The public repository URL, reserved Zenodo DOI, and dataset citation are
-present. The cover letter remains visibly marked as a pre-submission draft, and
-the archive must be published after file verification. Use the checklist before
-uploading any file to the journal.
+The public repository, versioned Zenodo DOI, verified artifact, finalized cover
+letter, and author confirmations are complete. Use the checklist while entering
+metadata and inspect the journal-generated PDF before completing submission.

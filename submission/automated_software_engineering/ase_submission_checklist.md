@@ -1,7 +1,8 @@
 # Automated Software Engineering initial submission checklist
 
-Status: journal formatting, public source repository, and reserved archival DOI
-complete; Zenodo publication and author confirmations still block submission.
+Status: manuscript, public source repository, archival DOI, and author
+confirmations complete. The package is ready for portal entry and the
+journal-generated PDF check.
 
 ## Completed
 
@@ -23,17 +24,21 @@ complete; Zenodo publication and author confirmations still block submission.
 - [x] Repository license is Apache-2.0.
 - [x] Third-party redistribution audit confirms that the included ScienceWorld JAR is Apache-2.0 and that ALFWorld data and model weights are not redistributed.
 
-## Required before upload
+## Completed release and author checks
 
-- [ ] Publish a versioned archive and obtain its DOI.
+- [x] Publish a versioned archive and obtain its DOI.
 - [x] Add the reserved DOI to `main.tex`, then rebuild the PDF and source ZIP.
 - [x] Add the archived dataset citation to `references.bib` and cite it in the Data Availability statement.
-- [ ] Liang Song and Zhai Jiabao confirm the author order and contribution statement for this manuscript.
-- [ ] Both authors confirm that this manuscript is original and is not under consideration elsewhere.
-- [ ] Both authors confirm the no-funding and no-competing-interest statements.
-- [ ] Finalize the cover letter by removing the draft banner and inserting the repository/DOI sentence.
+- [x] Liang Song and Zhai Jiabao confirm the author order and contribution statement for this manuscript.
+- [x] Both authors confirm that this manuscript is original and is not under consideration elsewhere.
+- [x] Both authors confirm the no-funding and no-competing-interest statements.
+- [x] Finalize the cover letter by removing the draft banner and inserting the repository/DOI sentence.
+
+## Complete in the submission portal
+
 - [ ] Rebuild and inspect the journal-generated submission PDF.
 - [ ] Enter author contributions and competing interests in the portal as well as in the manuscript.
 
-Do not submit the current package until the verified Zenodo draft has been
-published and both authors have completed the remaining confirmations.
+The corresponding author should verify the structured name fields in the
+portal: family name `Liang`, given name `Song`; family name `Zhai`, given name
+`Jiabao`.

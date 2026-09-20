@@ -26,10 +26,10 @@
 - [x] Select Apache-2.0 as the repository license
 - [x] Create and publish the source repository
 - [x] Reserve the archival DOI: https://doi.org/10.5281/zenodo.22851666
-- [ ] Publish the verified Zenodo archive so the DOI resolves publicly
+- [x] Publish the verified Zenodo archive so the DOI resolves publicly
 - [x] Recheck third-party redistribution terms at release time
 - [x] Add funding, conflict-of-interest, author-contribution, and data statements
-- [ ] Perform a final author-led technical and language review
+- [x] Perform a final author-led technical and language review
 
 The current package is a complete research manuscript and reproducibility
 artifact. Journal acceptance cannot be guaranteed; venue formatting and
