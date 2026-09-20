@@ -1,0 +1,14 @@
+{
+  "status": "confirmation_program_validators_frozen_inputs",
+  "confirmation_private_labels_opened": false,
+  "nearest_threshold": 0.6,
+  "input_sha256": {
+    "config": "3addc4b399a40c0f78f6f0d24d52326673561043cfdcbd74021289b25c57d00a",
+    "method_lock": "0c87e77e295bc9356cedef3a211e54a07b2322f6c700a0d1cd788a6c89fa5c78",
+    "public_candidates": "96e2c2f332685d484545acd937ff81e9ca6079f8c0db89df58733dbefbf25f8e",
+    "contract": "5d184769746d46801d95aac869fa00bea4d7e894a32dfa210ced5221821a98ea",
+    "development_public": "5c39476882dcec9e70675c5577b70b506d635e7e08e6d675491757a1c71a5178",
+    "development_labels": "c65a17657032cf4b8241f2cd7eb557827e09904bd6a767a9d3abe6d9074b0b56",
+    "runner": "2fccb1623f38e00aa21e5e69c98fb5acd021eaeac8c4aefa629a82a9d92cb204"
+  }
+}

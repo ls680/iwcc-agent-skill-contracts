@@ -1,0 +1,77 @@
+{
+  "status": "independent_witnessed_contract_confirmation",
+  "paper1_root": "../01_skilllineage",
+  "paper3_root": "../03_risk_limited_release",
+  "paper4_root": "../04_state_guarded_repair",
+  "selection_seed": "iwcc-confirmation-roster-20260906",
+  "mutation_seed": "iwcc-confirmation-mutations-20260906",
+  "analysis_seed": "iwcc-confirmation-analysis-20260906",
+  "alfworld_tasks_by_family": {
+    "look_at_obj_in_light": 5,
+    "pick_and_place_simple": 7,
+    "pick_clean_then_place_in_recep": 6,
+    "pick_cool_then_place_in_recep": 6,
+    "pick_heat_then_place_in_recep": 6
+  },
+  "scienceworld_tasks_per_family": 10,
+  "alfworld_official_splits": ["valid_seen", "valid_unseen"],
+  "alfworld_families": [
+    "look_at_obj_in_light",
+    "pick_and_place_simple",
+    "pick_clean_then_place_in_recep",
+    "pick_cool_then_place_in_recep",
+    "pick_heat_then_place_in_recep"
+  ],
+  "scienceworld_families": [
+    "find-living-thing",
+    "find-non-living-thing",
+    "use-thermometer"
+  ],
+  "operators": [
+    "delete_action",
+    "adjacent_order_swap",
+    "truncate_suffix",
+    "role_substitution"
+  ],
+  "max_steps": {"alfworld": 120, "scienceworld": 160},
+  "primary_comparator": "endpoint_only",
+  "nearest_successful_trace_threshold": 0.6,
+  "bootstrap_replicates": 10000,
+  "permutation_replicates": 100000,
+  "confidence_level": 0.95,
+  "alpha": 0.01,
+  "gates": {
+    "minimum_tasks": 50,
+    "minimum_killed": 100,
+    "minimum_controls": 50,
+    "minimum_balanced_accuracy": 0.8,
+    "minimum_gain_points": 10.0,
+    "maximum_false_rejection_rate": 0.05,
+    "minimum_killed_recall": 0.75
+  },
+  "models_config": "configs/models.json",
+  "frozen_contract": "results/development/v2/contract.json",
+  "paths": {
+    "inventory": "research/validation/inventory_20260905.json",
+    "reserved_snapshot": "research/validation/exposure_snapshot_20260905.json",
+    "r22_run_spec": "revisions/22_predicate_impact_testing/results/native_mutations/run_spec.json",
+    "r23_roster": "revisions/23_reserved_confirmation/reserved_roster.json",
+    "r24_roster": "revisions/24_operator_transfer_confirmation/reserved_roster.json",
+    "scienceworld_jar": "research/validation/vendor/scienceworld-e8216d6.jar"
+  },
+  "prior_rosters": {
+    "paper3": "data/confirmation/roster.json",
+    "paper4": "data/confirmation/roster.json"
+  },
+  "outputs": {
+    "method_lock": "research/METHOD_LOCK_V2.json",
+    "roster": "data/confirmation/roster.json",
+    "oracles": "data/confirmation/oracles",
+    "mutation_specs": "data/confirmation/mutation_specs.json",
+    "mutations": "data/confirmation/mutations",
+    "candidates": "data/confirmation/candidates",
+    "method_results": "results/confirmation/program_validators",
+    "llm_results": "results/confirmation/llm_judges",
+    "analysis": "results/confirmation/final"
+  }
+}

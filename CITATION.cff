@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper and software release."
+title: "Incremental Witnessed Contract Compilation"
+type: software
+version: 0.1.0
+date-released: 2026-09-20
+authors:
+  - family-names: "Song"
+    given-names: "Liang"
+    email: "liangsong_1976@126.com"
+    orcid: "https://orcid.org/0009-0002-6109-0639"
+    affiliation: "Business School, Xi'an International University"
+  - family-names: "Zhai"
+    given-names: "Jiabao"
+    email: "zhaijiabao123@126.com"
+    affiliation: "School of Management and Economics, North China University of Water Resources and Electric Power"
+repository-code: "https://github.com/ls680/iwcc-agent-skill-contracts"
+license: "Apache-2.0"
+keywords:
+  - "LLM agents"
+  - "agent skills"
+  - "specification mining"
+  - "regression validation"
+  - "execution traces"
+preferred-citation:
+  type: article
+  title: "From Traces to Witnessed Contracts: Incremental Precondition-Effect Compilation for LLM Agent Skills"
+  authors:
+    - family-names: "Song"
+      given-names: "Liang"
+      orcid: "https://orcid.org/0009-0002-6109-0639"
+    - family-names: "Zhai"
+      given-names: "Jiabao"
+  year: 2026

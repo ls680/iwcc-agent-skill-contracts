@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "model": {
+    "id": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "label": "mistral7b_v03"
+  },
+  "candidates": 180,
+  "invalid_outputs": 0,
+  "peak_cuda_memory_gib": 13.837890625,
+  "elapsed_seconds_this_process": 238.71174931479618,
+  "responses_sha256": "30b079aff3a3469d0fb3fe4831f91af48e081bf93040aa02fdc3b6200a2ada5f"
+}

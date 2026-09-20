@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iwcc"
+version = "0.1.0"
+description = "Incremental witnessed contract compilation for validating executable LLM agent skills"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Liang Song", email = "liangsong_1976@126.com"},
+  {name = "Zhai Jiabao", email = "zhaijiabao123@126.com"},
+]
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = [".", "src"]
+testpaths = ["tests"]

@@ -1,0 +1,132 @@
+{
+  "status": "development_v1_complete",
+  "healthy_traces": 45,
+  "mutation_outcomes": 135,
+  "candidate_programs": 180,
+  "killed": 103,
+  "controls": 77,
+  "by_kind": {
+    "healthy": 45,
+    "mutation": 135
+  },
+  "metrics": {
+    "endpoint_only": {
+      "true_positive": 53,
+      "false_negative": 50,
+      "true_negative": 75,
+      "false_positive": 2,
+      "recall": 0.5145631067961165,
+      "specificity": 0.974025974025974,
+      "false_rejection_rate": 0.025974025974025983,
+      "balanced_accuracy": 0.7442945404110453
+    },
+    "ordered_milestones": {
+      "true_positive": 53,
+      "false_negative": 50,
+      "true_negative": 75,
+      "false_positive": 2,
+      "recall": 0.5145631067961165,
+      "specificity": 0.974025974025974,
+      "false_rejection_rate": 0.025974025974025983,
+      "balanced_accuracy": 0.7442945404110453
+    },
+    "iwcc": {
+      "true_positive": 69,
+      "false_negative": 34,
+      "true_negative": 75,
+      "false_positive": 2,
+      "recall": 0.6699029126213593,
+      "specificity": 0.974025974025974,
+      "false_rejection_rate": 0.025974025974025983,
+      "balanced_accuracy": 0.8219644433236666
+    }
+  },
+  "strongest_nonmodel_comparator": "endpoint_only",
+  "absolute_gain": 0.07766990291262132,
+  "by_environment": {
+    "alfworld": {
+      "endpoint_only": {
+        "true_positive": 24,
+        "false_negative": 31,
+        "true_negative": 29,
+        "false_positive": 0,
+        "recall": 0.43636363636363634,
+        "specificity": 1.0,
+        "false_rejection_rate": 0.0,
+        "balanced_accuracy": 0.7181818181818181
+      },
+      "ordered_milestones": {
+        "true_positive": 24,
+        "false_negative": 31,
+        "true_negative": 29,
+        "false_positive": 0,
+        "recall": 0.43636363636363634,
+        "specificity": 1.0,
+        "false_rejection_rate": 0.0,
+        "balanced_accuracy": 0.7181818181818181
+      },
+      "iwcc": {
+        "true_positive": 40,
+        "false_negative": 15,
+        "true_negative": 29,
+        "false_positive": 0,
+        "recall": 0.7272727272727273,
+        "specificity": 1.0,
+        "false_rejection_rate": 0.0,
+        "balanced_accuracy": 0.8636363636363636
+      }
+    },
+    "scienceworld": {
+      "endpoint_only": {
+        "true_positive": 29,
+        "false_negative": 19,
+        "true_negative": 46,
+        "false_positive": 2,
+        "recall": 0.6041666666666666,
+        "specificity": 0.9583333333333334,
+        "false_rejection_rate": 0.04166666666666663,
+        "balanced_accuracy": 0.78125
+      },
+      "ordered_milestones": {
+        "true_positive": 29,
+        "false_negative": 19,
+        "true_negative": 46,
+        "false_positive": 2,
+        "recall": 0.6041666666666666,
+        "specificity": 0.9583333333333334,
+        "false_rejection_rate": 0.04166666666666663,
+        "balanced_accuracy": 0.78125
+      },
+      "iwcc": {
+        "true_positive": 29,
+        "false_negative": 19,
+        "true_negative": 46,
+        "false_positive": 2,
+        "recall": 0.6041666666666666,
+        "specificity": 0.9583333333333334,
+        "false_rejection_rate": 0.04166666666666663,
+        "balanced_accuracy": 0.78125
+      }
+    }
+  },
+  "contract_sha256": "47287d07bb8ac4008163044abd1629102e171ff4a5f95c1721abce849d05f24c",
+  "contract_order_invariant": true,
+  "all_clauses_witnessed": true,
+  "gates": {
+    "enough_killed": true,
+    "enough_controls": true,
+    "balanced_accuracy": true,
+    "gain_at_least_10_points": false,
+    "false_rejection_at_most_5_percent": true,
+    "recall_at_least_75_percent": false,
+    "positive_in_both_environments": false,
+    "order_invariant": true
+  },
+  "elapsed_seconds": 2.2610008490737528,
+  "input_sha256": {
+    "oracles": "0acb0e96c03cfa145a050de5b21257e2527940e7631989058933063ca4c2eb78",
+    "mutation_specs": "a2e7e472fd134ab814dec3f95454e968ef234dc53bb50abaffcc32091fb6b308",
+    "mutation_outcomes": "70c76b79bb242743236a6ad90cb2a35e78da940b857109efc006349ed69dc860"
+  },
+  "all_development_gates_pass": false
+}

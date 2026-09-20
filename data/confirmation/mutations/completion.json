@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "native_replays": 240,
+  "killed_incidents": 202,
+  "surviving_mutations": 38,
+  "technical_errors": 0,
+  "initial_state_matches": 240,
+  "by_environment": {
+    "alfworld": 120,
+    "scienceworld": 120
+  },
+  "by_operator": {
+    "delete_action": 60,
+    "adjacent_order_swap": 60,
+    "truncate_suffix": 60,
+    "role_substitution": 60
+  },
+  "outcomes_sha256": "08485260aacf19c50dd062c0c28dc34cfd3c6bedb1a823de87178d86a6a1881f"
+}

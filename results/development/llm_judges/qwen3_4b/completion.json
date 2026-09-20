@@ -1,0 +1,13 @@
+{
+  "status": "completed",
+  "model": {
+    "id": "Qwen/Qwen3-4B-Instruct-2507",
+    "revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "label": "qwen3_4b"
+  },
+  "candidates": 180,
+  "invalid_outputs": 0,
+  "peak_cuda_memory_gib": 7.775390625,
+  "elapsed_seconds_this_process": 199.09526248881593,
+  "responses_sha256": "b58c472d8f237cac9f4c5db486a0b0a9de6ce575039b6a32304d5195dc924ffe"
+}

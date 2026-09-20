@@ -1,0 +1,22 @@
+{
+  "status": "exposed_development_only",
+  "paper4_root": "../04_state_guarded_repair",
+  "minimum_clause_support": 0.8,
+  "minimum_order_support": 0.9,
+  "trace_order_permutations": 100,
+  "development_gates": {
+    "minimum_killed": 80,
+    "minimum_controls": 50,
+    "minimum_balanced_accuracy": 0.8,
+    "minimum_gain_points": 10.0,
+    "maximum_false_rejection_rate": 0.05,
+    "minimum_killed_recall": 0.75
+  },
+  "inputs": {
+    "oracles": "data/confirmation/oracles/trajectories.jsonl",
+    "mutation_specs": "data/confirmation/mutation_specs.json",
+    "mutation_outcomes": "data/confirmation/mutations/outcomes.jsonl"
+  },
+  "output": "results/development/v1"
+}
+

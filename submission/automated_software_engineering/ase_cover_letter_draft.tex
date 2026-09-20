@@ -1,0 +1,81 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=24mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{flushright}
+Liang Song\\
+Business School, Xi'an International University\\
+Xi'an, Shaanxi 710077, China\\
+20 September 2026
+\end{flushright}
+
+Editors\\
+\textit{Automated Software Engineering}
+
+Dear Editors,
+
+\begin{center}
+\fbox{\textbf{PRE-SUBMISSION DRAFT --- DO NOT UPLOAD YET}}
+\end{center}
+
+\noindent\textbf{Re: Original Paper submission}\\
+\textbf{``From Traces to Witnessed Contracts: Incremental Precondition--Effect
+Compilation for LLM Agent Skills''}
+
+Please consider our manuscript for publication as an Original Paper in
+\textit{Automated Software Engineering}. The paper addresses a practical
+maintenance problem created by executable LLM-agent skills: a plausible
+revision may retain its final goal action while silently breaking navigation,
+possession, or transformation dependencies.
+
+We introduce Incremental Witnessed Contract Compilation (IWCC), a
+pre-execution validator that compiles successful native traces into
+deterministic, provenance-carrying contracts over objective roles, milestones,
+precedence, navigation, and producer--consumer dataflow. Each learned clause
+retains its successful witnesses, and each rejection identifies a violated
+clause and action position.
+
+The evaluation separates exposed development evidence from a frozen,
+zero-overlap confirmation. Across 60 ALFWorld and ScienceWorld tasks and 300
+candidate programs, IWCC reaches 88.12\% balanced accuracy, compared with
+77.48\% for the predeclared strongest comparator. The 10.64-point gain has a
+task-stratified 95\% confidence interval of 8.88--12.50 points and a paired
+task permutation $p$-value of $1.0\times10^{-5}$. IWCC accepts all 98 healthy
+or behaviorally equivalent controls and runs at 0.487 ms median latency on one
+CPU process.
+
+The work fits the journal's scope by treating reusable agent skills as evolving
+software artifacts and combining specification mining, software validation,
+provenance, and release-time defect screening. The claim is deliberately
+bounded: IWCC detects modeled structural defects but does not certify semantic
+success or replace native execution.
+
+Source code, data, frozen protocols, analysis scripts, and the reproducibility
+bundle are publicly available at
+\url{https://github.com/ls680/iwcc-agent-skill-contracts} under Apache-2.0.
+
+Before this letter is uploaded, the versioned archival DOI must be inserted,
+and both authors must confirm originality, exclusive submission, author order,
+and approval of the submitted version. The authors declare no competing
+interests and no specific funding. Generative-AI assistance is disclosed in the
+manuscript.
+
+Sincerely,
+
+Liang Song\\
+Corresponding author\\
+Business School, Xi'an International University\\
+Xi'an, Shaanxi 710077, China\\
+\href{mailto:liangsong_1976@126.com}{liangsong\_1976@126.com}\\
+ORCID: \href{https://orcid.org/0009-0002-6109-0639}{0009-0002-6109-0639}
+
+\end{document}

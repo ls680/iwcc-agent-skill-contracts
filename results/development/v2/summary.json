@@ -1,0 +1,133 @@
+{
+  "status": "exposed_development_only_mechanism_revision_1_complete",
+  "healthy_traces": 45,
+  "successful_mutation_witnesses": 32,
+  "mutation_outcomes": 135,
+  "candidate_programs": 180,
+  "killed": 103,
+  "controls": 77,
+  "by_kind": {
+    "healthy": 45,
+    "mutation": 135
+  },
+  "metrics": {
+    "endpoint_only": {
+      "true_positive": 52,
+      "false_negative": 51,
+      "true_negative": 76,
+      "false_positive": 1,
+      "recall": 0.5048543689320388,
+      "specificity": 0.987012987012987,
+      "false_rejection_rate": 0.012987012987012991,
+      "balanced_accuracy": 0.745933677972513
+    },
+    "ordered_milestones": {
+      "true_positive": 52,
+      "false_negative": 51,
+      "true_negative": 76,
+      "false_positive": 1,
+      "recall": 0.5048543689320388,
+      "specificity": 0.987012987012987,
+      "false_rejection_rate": 0.012987012987012991,
+      "balanced_accuracy": 0.745933677972513
+    },
+    "iwcc": {
+      "true_positive": 78,
+      "false_negative": 25,
+      "true_negative": 76,
+      "false_positive": 1,
+      "recall": 0.7572815533980582,
+      "specificity": 0.987012987012987,
+      "false_rejection_rate": 0.012987012987012991,
+      "balanced_accuracy": 0.8721472702055226
+    }
+  },
+  "strongest_nonmodel_comparator": "endpoint_only",
+  "absolute_gain": 0.12621359223300965,
+  "by_environment": {
+    "alfworld": {
+      "endpoint_only": {
+        "true_positive": 31,
+        "false_negative": 24,
+        "true_negative": 28,
+        "false_positive": 1,
+        "recall": 0.5636363636363636,
+        "specificity": 0.9655172413793104,
+        "false_rejection_rate": 0.03448275862068961,
+        "balanced_accuracy": 0.764576802507837
+      },
+      "ordered_milestones": {
+        "true_positive": 31,
+        "false_negative": 24,
+        "true_negative": 28,
+        "false_positive": 1,
+        "recall": 0.5636363636363636,
+        "specificity": 0.9655172413793104,
+        "false_rejection_rate": 0.03448275862068961,
+        "balanced_accuracy": 0.764576802507837
+      },
+      "iwcc": {
+        "true_positive": 49,
+        "false_negative": 6,
+        "true_negative": 28,
+        "false_positive": 1,
+        "recall": 0.8909090909090909,
+        "specificity": 0.9655172413793104,
+        "false_rejection_rate": 0.03448275862068961,
+        "balanced_accuracy": 0.9282131661442006
+      }
+    },
+    "scienceworld": {
+      "endpoint_only": {
+        "true_positive": 21,
+        "false_negative": 27,
+        "true_negative": 48,
+        "false_positive": 0,
+        "recall": 0.4375,
+        "specificity": 1.0,
+        "false_rejection_rate": 0.0,
+        "balanced_accuracy": 0.71875
+      },
+      "ordered_milestones": {
+        "true_positive": 21,
+        "false_negative": 27,
+        "true_negative": 48,
+        "false_positive": 0,
+        "recall": 0.4375,
+        "specificity": 1.0,
+        "false_rejection_rate": 0.0,
+        "balanced_accuracy": 0.71875
+      },
+      "iwcc": {
+        "true_positive": 29,
+        "false_negative": 19,
+        "true_negative": 48,
+        "false_positive": 0,
+        "recall": 0.6041666666666666,
+        "specificity": 1.0,
+        "false_rejection_rate": 0.0,
+        "balanced_accuracy": 0.8020833333333333
+      }
+    }
+  },
+  "contract_sha256": "1409b5ff90c827aae59b409a30ee17257e5427cebc7ca1580a355030b2daeef7",
+  "contract_order_invariant": true,
+  "all_clauses_witnessed": true,
+  "gates": {
+    "enough_killed": true,
+    "enough_controls": true,
+    "balanced_accuracy": true,
+    "gain_at_least_10_points": true,
+    "false_rejection_at_most_5_percent": true,
+    "recall_at_least_75_percent": true,
+    "positive_in_both_environments": true,
+    "order_invariant": true
+  },
+  "elapsed_seconds": 5.360208076890558,
+  "input_sha256": {
+    "oracles": "0acb0e96c03cfa145a050de5b21257e2527940e7631989058933063ca4c2eb78",
+    "mutation_specs": "a2e7e472fd134ab814dec3f95454e968ef234dc53bb50abaffcc32091fb6b308",
+    "mutation_outcomes": "70c76b79bb242743236a6ad90cb2a35e78da940b857109efc006349ed69dc860"
+  },
+  "all_development_gates_pass": true
+}

@@ -1,0 +1,17 @@
+{
+  "status": "confirmation_candidates_built_after_native_outcomes",
+  "candidates": 300,
+  "killed": 202,
+  "controls": 98,
+  "public_contains_native_outcome": false,
+  "public_contains_task_locator": false,
+  "private_labels_are_forbidden_to_judges": true,
+  "input_sha256": {
+    "oracles": "77232a87fd2b41c78f4406886461e81a2c540d0983e5c6321c73743a40da1c69",
+    "outcomes": "08485260aacf19c50dd062c0c28dc34cfd3c6bedb1a823de87178d86a6a1881f"
+  },
+  "output_sha256": {
+    "public": "96e2c2f332685d484545acd937ff81e9ca6079f8c0db89df58733dbefbf25f8e",
+    "private": "bdeea2149c4e83c00578da098371709348d036a42c4ae6e4cd6b0cccdd2b4605"
+  }
+}

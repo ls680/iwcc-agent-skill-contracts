@@ -1,0 +1,60 @@
+{
+  "status": "posthoc_descriptive_secondary_analysis",
+  "primary_confirmation_unchanged": true,
+  "runtime": {
+    "device": "single CPU process",
+    "candidate_validations": 30000,
+    "repeats": 100,
+    "median_milliseconds": 0.487351,
+    "p95_milliseconds": 1.14477295,
+    "throughput_programs_per_second": 1715.208183718551
+  },
+  "contract": {
+    "successful_development_trace_witnesses": 77,
+    "family_contracts": 9,
+    "required_and_precedence_plus_navigation_clauses": 71,
+    "navigation_edges": 18,
+    "canonical_sha256": "1409b5ff90c827aae59b409a30ee17257e5427cebc7ca1580a355030b2daeef7"
+  },
+  "localization_among_detected_kills": {
+    "detected": 154,
+    "exact_rate": 0.6363636363636364,
+    "within_one_rate": 0.9415584415584416
+  },
+  "uncertainty": {
+    "killed_recall_wilson_95_ci": [
+      0.6991290515041051,
+      0.81583037701576
+    ],
+    "zero_false_rejection_wilson_95_upper": 0.03771999012168061
+  },
+  "family_directions": {
+    "positive": 7,
+    "tied": 1,
+    "negative": 0
+  },
+  "gpu_judges": {
+    "qwen3_4b": {
+      "candidates": 300,
+      "peak_cuda_memory_gib": 7.8671875,
+      "elapsed_seconds": 337.9187979376875
+    },
+    "phi4_mini": {
+      "candidates": 300,
+      "peak_cuda_memory_gib": 7.44921875,
+      "elapsed_seconds": 353.57034225203097
+    },
+    "mistral7b_v03": {
+      "candidates": 300,
+      "peak_cuda_memory_gib": 13.90625,
+      "elapsed_seconds": 368.18255039770156
+    }
+  },
+  "input_sha256": {
+    "public": "96e2c2f332685d484545acd937ff81e9ca6079f8c0db89df58733dbefbf25f8e",
+    "private": "bdeea2149c4e83c00578da098371709348d036a42c4ae6e4cd6b0cccdd2b4605",
+    "contract": "5d184769746d46801d95aac869fa00bea4d7e894a32dfa210ced5221821a98ea",
+    "predictions": "9a574f624c9ab8ef389ce006474961cb1b548a0e6af96a08264a2c56a4d0cab2",
+    "primary_summary": "b0df0bf63d19bbb11f49d52ec433f7c6e654bf6013e0fbd892ce397abbba46f2"
+  }
+}

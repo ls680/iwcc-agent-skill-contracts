@@ -1,0 +1,14 @@
+{
+  "status": "exposed_development_candidates",
+  "candidates": 180,
+  "public_contains_native_outcome": false,
+  "private_labels_are_forbidden_to_judges": true,
+  "input_sha256": {
+    "oracles": "0acb0e96c03cfa145a050de5b21257e2527940e7631989058933063ca4c2eb78",
+    "outcomes": "70c76b79bb242743236a6ad90cb2a35e78da940b857109efc006349ed69dc860"
+  },
+  "output_sha256": {
+    "public": "5c39476882dcec9e70675c5577b70b506d635e7e08e6d675491757a1c71a5178",
+    "private": "c65a17657032cf4b8241f2cd7eb557827e09904bd6a767a9d3abe6d9074b0b56"
+  }
+}

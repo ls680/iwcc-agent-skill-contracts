@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "runners": [
+    "scripts/run_program_validators.py",
+    "scripts/run_llm_judge.py"
+  ],
+  "source_violations": [],
+  "public_key_violations": [],
+  "run_spec_violations": [],
+  "interpretation": "Native outcomes and task locators are unavailable to all pre-execution judges; only the post-hoc analyzer opens private labels."
+}

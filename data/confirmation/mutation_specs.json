@@ -1,0 +1,2426 @@
+{
+  "status": "mutation_specs_frozen_before_outcomes",
+  "generation_reads_mutation_outcomes": false,
+  "mutation_seed": "iwcc-confirmation-mutations-20260906",
+  "specs": [
+    {
+      "spec_id": "e55a77a392bf8418d4f1",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220604_010430/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "20f330ea130ef125e867",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220604_010430/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "dbdad8ccbad8034aea00",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220604_010430/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "9f57fd1b1fb74c273b4a",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Pencil-None-DeskLamp-308/trial_T20190908_220604_010430/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "use floorlamp 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "aabebb7e55d12a24850e",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222917_366542/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "a8f95433261918ddc462",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222917_366542/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 10,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "b913dcdb6e4a75dab440",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222917_366542/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "747cfa2b7eaee12e5863",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222917_366542/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 11,
+      "replacement_action": "use floorlamp 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "fe8ff8856e3f11451759",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 10,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "a682236bebf18250bd12",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 12,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "8d0b8896c22a6cad7940",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 11,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "da90283ba5e53f6f1762",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-CD-None-DeskLamp-308/trial_T20190908_141958_463362/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 13,
+      "replacement_action": "use floorlamp 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "2afa4b6dbe5c059c5363",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 1,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "2c52309bccbb34f7d115",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "a34a5fd58d48410607e3",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "0d80ff23a0e6318f604e",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201421_021646/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 5,
+      "replacement_action": "use floorlamp 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "9cde053ef8d2fea8c639",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "60f628ee8db2a74f98ab",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "3839d05f95039d72be4d",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "da5cbe3acc4a5239ab04",
+      "environment": "alfworld",
+      "family": "look_at_obj_in_light",
+      "task_id": "json_2.1.1/valid_unseen/look_at_obj_in_light-Mug-None-DeskLamp-308/trial_T20190908_201444_037645/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "use floorlamp 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "4c3ad26918f4f6b26d37",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "75e83223214b2b652432",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "8284df379c716adcab72",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "79b4ee033acfd96acea8",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-CellPhone-None-ArmChair-318/trial_T20190909_120047_968274/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 5,
+      "replacement_action": "move cellphone 3 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "b8b970eb54986a044230",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 33,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "7526f2763677c6ee3745",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 29,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "b3ddc5c87f1fdb2bcafc",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 31,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "6b0c5d4a585a6b9555ac",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 33,
+      "replacement_action": "move watch 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "f85901a62f8354b268c5",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-406/trial_T20190908_122858_883968/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "9c72afac499b8e2b27da",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-406/trial_T20190908_122858_883968/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "d7f81999097257fa9ee3",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-406/trial_T20190908_122858_883968/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "9d591c546c28c04f2030",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-406/trial_T20190908_122858_883968/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 10,
+      "replacement_action": "move toiletpaper 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "b895f4e101e62f5dca97",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 17,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "b48e2b315b17f9728621",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 16,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "2cd59f0b0d02652c2461",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 17,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "40abf8e6c9dea77ad6b9",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Drawer-10/trial_T20190909_021728_339782/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 19,
+      "replacement_action": "move saltshaker 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "f48707bb8b02bdf9a735",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Cabinet-413/trial_T20190907_114931_692464/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "03fcf12ec2f7d86c34e0",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Cabinet-413/trial_T20190907_114931_692464/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "f9c78ae5a43f9d5f04cf",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Cabinet-413/trial_T20190907_114931_692464/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "3a9b67440c27d70d6856",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-SprayBottle-None-Cabinet-413/trial_T20190907_114931_692464/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 5,
+      "replacement_action": "move spraybottle 3 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "07120f09257a402766be",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "c3c41bbea86f9e986405",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "0fd6a3bea14a5650247d",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "b82d7448e127aeca4f6c",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_unseen/pick_and_place_simple-SaltShaker-None-Cabinet-10/trial_T20190906_191501_563086/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 9,
+      "replacement_action": "move saltshaker 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "8bd191e358e666aa4b65",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 1,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "677f9e0947d8bb00bef3",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 1,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "4ebd47ba640af5f2557d",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "d2f3139e8f81e72b651c",
+      "environment": "alfworld",
+      "family": "pick_and_place_simple",
+      "task_id": "json_2.1.1/valid_seen/pick_and_place_simple-ToiletPaper-None-ToiletPaperHanger-415/trial_T20190908_050518_595510/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 5,
+      "replacement_action": "move toiletpaper 2 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "dbbfa67167840bbc3f05",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "4d46e0a52e0c38d26664",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "3bf8dfcbe49cf6a6b5a8",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "1889e53af00fbe05035f",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_clean_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_032518_891433/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 8,
+      "replacement_action": "move pan 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "9d1684fe2277f89cdfcc",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-402/trial_T20190908_055221_984342/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "a7ed9e1c4e0ff7636f1c",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-402/trial_T20190908_055221_984342/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "3cc20456a0166fe62272",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-402/trial_T20190908_055221_984342/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "eccc79996f2fa2f868c8",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-SoapBar-None-Cabinet-402/trial_T20190908_055221_984342/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 10,
+      "replacement_action": "move soapbar 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "1dc11e3117003260d63e",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 29,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "4bfa236f35c50a245780",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 27,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "9ae035bc72ff26a4ee97",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 27,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "5d454f4be364f15468bd",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-DiningTable-4/trial_T20190909_164840_568811/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 29,
+      "replacement_action": "move ladle 2 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "a66d160dc3c460b1884d",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-8/trial_T20190909_121908_219603/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 26,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "51fe0920ad9856e6dac5",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-8/trial_T20190909_121908_219603/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 28,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "1fe444678e68fcde1bf7",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-8/trial_T20190909_121908_219603/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 28,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "e9db836933dca689d34f",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Ladle-None-CounterTop-8/trial_T20190909_121908_219603/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 30,
+      "replacement_action": "move ladle 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "765751fcc3f580612209",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Fork-None-CounterTop-23/trial_T20190908_233922_171295/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "5910978c4b9342a39ec1",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Fork-None-CounterTop-23/trial_T20190908_233922_171295/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "17387a63684e19c669d7",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Fork-None-CounterTop-23/trial_T20190908_233922_171295/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "f6beaa2cf729e23bad0e",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Fork-None-CounterTop-23/trial_T20190908_233922_171295/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 11,
+      "replacement_action": "move fork 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "b300fdb0b9cd1bdd4ef0",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-DiningTable-16/trial_T20190909_114508_617301/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 43,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "9c83d75923735b2bd258",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-DiningTable-16/trial_T20190909_114508_617301/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 41,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "1a7d9043325d9211f409",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-DiningTable-16/trial_T20190909_114508_617301/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 44,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "24dd96e94c2fae9d2b1d",
+      "environment": "alfworld",
+      "family": "pick_clean_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_clean_then_place_in_recep-ButterKnife-None-DiningTable-16/trial_T20190909_114508_617301/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 46,
+      "replacement_action": "move butterknife 4 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "e699b254589660e7f247",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Bowl-None-Cabinet-20/trial_T20190909_112912_154874/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 24,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "fbbddff757de0861e8fc",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Bowl-None-Cabinet-20/trial_T20190909_112912_154874/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 20,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "ba68010acf7384047c62",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Bowl-None-Cabinet-20/trial_T20190909_112912_154874/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 22,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "0bd95f4c55a6c7829989",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Bowl-None-Cabinet-20/trial_T20190909_112912_154874/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 24,
+      "replacement_action": "move bowl 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "1e997b68ba8e3c052c13",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "67e656f40dc48e1c7e6a",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "31b680a2788716e80b06",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "48dfb14d67bcd465d9a3",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114545_244903/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 8,
+      "replacement_action": "move pan 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "e8b40b634424fdad47ae",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195943_081289/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "6dda37a6b51ecf3153f2",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195943_081289/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 12,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "8ebc74b898f3e65f89f5",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195943_081289/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "7d52b2010069e144bd5b",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-GarbageCan-2/trial_T20190906_195943_081289/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 15,
+      "replacement_action": "move apple 1 to countertop 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "9137beca4e1aac414f34",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "2912622af4c546e4b70f",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "899c219f7809d68f1640",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "726b2e24379af480b1d4",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Tomato-None-Microwave-10/trial_T20190909_102644_926781/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 7,
+      "replacement_action": "move tomato 2 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "0c1bb4c3b3402497f0b4",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-WineBottle-None-DiningTable-17/trial_T20190908_024426_412044/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "2d018e22d72ec3bbf261",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-WineBottle-None-DiningTable-17/trial_T20190908_024426_412044/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "f8a551574e56938b93a2",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-WineBottle-None-DiningTable-17/trial_T20190908_024426_412044/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "4f8374ea8827ca144603",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-WineBottle-None-DiningTable-17/trial_T20190908_024426_412044/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 10,
+      "replacement_action": "move winebottle 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "607394427bd63b8b7e42",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "f6e14b278c3c496b7211",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "0523e550c46334c21202",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "5349888a5bb256746063",
+      "environment": "alfworld",
+      "family": "pick_cool_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Apple-None-CounterTop-14/trial_T20190909_044933_815840/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 9,
+      "replacement_action": "move apple 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "310fd199f0dc5e866342",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-Fridge-23/trial_T20190909_082320_103350/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "5f2a11df84a3729f14a1",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-Fridge-23/trial_T20190909_082320_103350/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "d756d481dce661e8376f",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-Fridge-23/trial_T20190909_082320_103350/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 11,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "e30f6ecf2f301d8154fa",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_seen/pick_heat_then_place_in_recep-Tomato-None-Fridge-23/trial_T20190909_082320_103350/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 13,
+      "replacement_action": "move tomato 4 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "ea6ec5d4dabca5c590b0",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "34ef217939b807696b65",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "2c0e7d117a94ffd85e4b",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "991f20b592cdef965abf",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225046_020282/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "move tomato 2 to countertop 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "d7085bbed69feb5bf76c",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 11,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "0de623dcb36024787795",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "30acdf7ed6a376f421ee",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 11,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "2d10630533614f088be5",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Tomato-None-GarbageCan-10/trial_T20190908_225453_272533/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 13,
+      "replacement_action": "move tomato 2 to countertop 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "5c8fa6f1da6c71c3ee61",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021247_306737/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 29,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "ba70c965ef7880dbf308",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021247_306737/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 28,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "ef54c04341e926d3f0f2",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021247_306737/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 29,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "9fb8bbdd22d8a9479b17",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Mug-None-Cabinet-10/trial_T20190909_021247_306737/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 31,
+      "replacement_action": "move mug 1 to garbagecan 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "aec03953b1210c6e46e3",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "8d3b862d8b009c6a29cc",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "ad82dec28e722aca7475",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "d7b3ee6e8e579133f508",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Egg-None-GarbageCan-10/trial_T20190908_113523_123938/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 10,
+      "replacement_action": "move egg 1 to countertop 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "055b8108f909c923bd8a",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145356_918528/game.tw-pddl",
+      "operator": "delete_action",
+      "program_index": 10,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "3db6ee3eb052248ea3dd",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145356_918528/game.tw-pddl",
+      "operator": "adjacent_order_swap",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "68ed7d67b1da99abc40e",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145356_918528/game.tw-pddl",
+      "operator": "truncate_suffix",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "d91f03e38e530c6e0d82",
+      "environment": "alfworld",
+      "family": "pick_heat_then_place_in_recep",
+      "task_id": "json_2.1.1/valid_unseen/pick_heat_then_place_in_recep-Apple-None-GarbageCan-10/trial_T20190908_145356_918528/game.tw-pddl",
+      "operator": "role_substitution",
+      "program_index": 10,
+      "replacement_action": "move apple 2 to countertop 1",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "914cd7e60773b2d6eb67",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:254",
+      "operator": "delete_action",
+      "program_index": 10,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "c05a808efa240e83c2ca",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:254",
+      "operator": "adjacent_order_swap",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "ebfba6799df8ea7c4d29",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:254",
+      "operator": "truncate_suffix",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "1fc8c3d0bc590d5c66be",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:254",
+      "operator": "role_substitution",
+      "program_index": 11,
+      "replacement_action": "move egg giant tortoise egg to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "f7f6f011bd66d0bf2f9d",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:236",
+      "operator": "delete_action",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "2d52949f9abe887f1d60",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:236",
+      "operator": "adjacent_order_swap",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "8b8e59e30b016b4ff8ef",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:236",
+      "operator": "truncate_suffix",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "df83c87faf9b7b3781d0",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:236",
+      "operator": "role_substitution",
+      "program_index": 11,
+      "replacement_action": "move egg common toad to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "5dddc990abfd198e63b6",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:296",
+      "operator": "delete_action",
+      "program_index": 12,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "8068e9f9bf443ae596a5",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:296",
+      "operator": "adjacent_order_swap",
+      "program_index": 12,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "504f8c069f1779b94ebc",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:296",
+      "operator": "truncate_suffix",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "c84130f506e8c6013af9",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:296",
+      "operator": "role_substitution",
+      "program_index": 15,
+      "replacement_action": "move baby baby wolf to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "9c5a8c0606a8fae13c53",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:235",
+      "operator": "delete_action",
+      "program_index": 10,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "8ead91faee7021ea7f56",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:235",
+      "operator": "adjacent_order_swap",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "5e18a418b023a626d6ec",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:235",
+      "operator": "truncate_suffix",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "c92c0a2d79118f17503e",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:235",
+      "operator": "role_substitution",
+      "program_index": 15,
+      "replacement_action": "move egg common toad to blue box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "13d4e51bf0412bb60c25",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:248",
+      "operator": "delete_action",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "05770ebe2fecc09b0ac7",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:248",
+      "operator": "adjacent_order_swap",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "9bb34266d4ce02a75225",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:248",
+      "operator": "truncate_suffix",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "198529999e23ed000dbf",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:248",
+      "operator": "role_substitution",
+      "program_index": 9,
+      "replacement_action": "move egg butterfly egg to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "48ea166d3bf9ab5a0ede",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:240",
+      "operator": "delete_action",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "565c9dc29ee6d3675df7",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:240",
+      "operator": "adjacent_order_swap",
+      "program_index": 10,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "c7699ad883ab40b3198d",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:240",
+      "operator": "truncate_suffix",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "6f4a1289f519dcbe3bf9",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:240",
+      "operator": "role_substitution",
+      "program_index": 11,
+      "replacement_action": "move egg butterfly egg to green box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "0b553576a7b296e244fa",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:251",
+      "operator": "delete_action",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "039564ba8fa806666dcb",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:251",
+      "operator": "adjacent_order_swap",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "a5bbf08d839afe06d6c0",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:251",
+      "operator": "truncate_suffix",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "c30173356f060d18d776",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:251",
+      "operator": "role_substitution",
+      "program_index": 9,
+      "replacement_action": "move egg giant tortoise egg to red box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "73bcbe72a07b0f3b81d3",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:286",
+      "operator": "delete_action",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "82d77de79bca5489e635",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:286",
+      "operator": "adjacent_order_swap",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "7224da83322b3a21198a",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:286",
+      "operator": "truncate_suffix",
+      "program_index": 9,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "28fc6ef59134e9f359d9",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:286",
+      "operator": "role_substitution",
+      "program_index": 11,
+      "replacement_action": "move baby baby wolf to orange box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "19548abe3ba865f68fd2",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:247",
+      "operator": "delete_action",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "107258e0a6267ab8ff8f",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:247",
+      "operator": "adjacent_order_swap",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "d86b5291ad3414975c1a",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:247",
+      "operator": "truncate_suffix",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "46c5c1156bef2b036e82",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:247",
+      "operator": "role_substitution",
+      "program_index": 7,
+      "replacement_action": "move egg giant tortoise egg to blue box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "d1e9de5decb61a2d4f27",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:243",
+      "operator": "delete_action",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "3448bf42cf4d944476e8",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:243",
+      "operator": "adjacent_order_swap",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "e25f4f3eeda425f02fba",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:243",
+      "operator": "truncate_suffix",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "2019ae3bbdacbe9ee423",
+      "environment": "scienceworld",
+      "family": "find-living-thing",
+      "task_id": "find-living-thing:243",
+      "operator": "role_substitution",
+      "program_index": 7,
+      "replacement_action": "move egg giant tortoise egg to purple box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "a42e2c968ebab2eca1b5",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:259",
+      "operator": "delete_action",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "f4f3989e049afdcf7d7c",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:259",
+      "operator": "adjacent_order_swap",
+      "program_index": 1,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "909545b34d184ebca284",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:259",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "ff3d48e19322019f63a9",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:259",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "move object to blue box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "8030b333557a59013043",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:232",
+      "operator": "delete_action",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "13aefbd47981bae93e37",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:232",
+      "operator": "adjacent_order_swap",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "26fc8084f4c3514a1d83",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:232",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "8e677e99597c9c0a5ae2",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:232",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "move book (sherlock holmes) to orange box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "a2fb78f701486045ffc9",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:281",
+      "operator": "delete_action",
+      "program_index": 7,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "473e6cbcacdd6e08d7a9",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:281",
+      "operator": "adjacent_order_swap",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "0a3b7cf035125921c379",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:281",
+      "operator": "truncate_suffix",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "558d16a5cc696721fd07",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:281",
+      "operator": "role_substitution",
+      "program_index": 8,
+      "replacement_action": "move cup to red box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "967ee58dc2f59342cb36",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:298",
+      "operator": "delete_action",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "f36bd7019a94b5d879d1",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:298",
+      "operator": "adjacent_order_swap",
+      "program_index": 1,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "30c947c653acf2df8be8",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:298",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "2da8c10edfe52a49d78c",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:298",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "move blue wire to orange box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "2d560c4319d10bc7798e",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:226",
+      "operator": "delete_action",
+      "program_index": 10,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "123cfd57a1cfdca03b10",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:226",
+      "operator": "adjacent_order_swap",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "8773e2eaafc667d2d707",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:226",
+      "operator": "truncate_suffix",
+      "program_index": 8,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "3774dbb6771e7d6ee286",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:226",
+      "operator": "role_substitution",
+      "program_index": 10,
+      "replacement_action": "move cloth sittable to orange box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "51afd76201765135b072",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:284",
+      "operator": "delete_action",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "a50bcb1d0099ac935a83",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:284",
+      "operator": "adjacent_order_swap",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "2fd8ff85c70f4514db90",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:284",
+      "operator": "truncate_suffix",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "aa26ac2cdb314878db85",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:284",
+      "operator": "role_substitution",
+      "program_index": 4,
+      "replacement_action": "move chair to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "81e320ea9110db468369",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:297",
+      "operator": "delete_action",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "3ca5e7fbec65dea146a8",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:297",
+      "operator": "adjacent_order_swap",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "da369e95a5f4391c56f6",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:297",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "71a85cdad8c89a852824",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:297",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "move blue wire to purple box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "7645179dc456e500c7a7",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:242",
+      "operator": "delete_action",
+      "program_index": 5,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "974619666e154cb0a281",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:242",
+      "operator": "adjacent_order_swap",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "840ec9a7284f80512b3a",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:242",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "42741d26a3474c28e9ca",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:242",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "move chair to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "7971a1e4325add11cb97",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:264",
+      "operator": "delete_action",
+      "program_index": 2,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "91b15b09f706e20eb67c",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:264",
+      "operator": "adjacent_order_swap",
+      "program_index": 1,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "a5087a812ea4a4629188",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:264",
+      "operator": "truncate_suffix",
+      "program_index": 1,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "3220d9cb001236a3ddfa",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:264",
+      "operator": "role_substitution",
+      "program_index": 2,
+      "replacement_action": "move table to green box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "05a37a0db4d7f50ef951",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:254",
+      "operator": "delete_action",
+      "program_index": 6,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "d781065226a6b8d7426f",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:254",
+      "operator": "adjacent_order_swap",
+      "program_index": 3,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "ae039b09b990f7c9388b",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:254",
+      "operator": "truncate_suffix",
+      "program_index": 4,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "114fce5059caf438042a",
+      "environment": "scienceworld",
+      "family": "find-non-living-thing",
+      "task_id": "find-non-living-thing:254",
+      "operator": "role_substitution",
+      "program_index": 6,
+      "replacement_action": "move book (moby dick) to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "818eeef675c690cd4ca3",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:518",
+      "operator": "delete_action",
+      "program_index": 17,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "d800d6d48d0e61c45372",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:518",
+      "operator": "adjacent_order_swap",
+      "program_index": 15,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "644cef68af30a97107ee",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:518",
+      "operator": "truncate_suffix",
+      "program_index": 18,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "5c7bbba94360b9987381",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:518",
+      "operator": "role_substitution",
+      "program_index": 20,
+      "replacement_action": "move wood to purple box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "13f6e2cc9a632c546f99",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:471",
+      "operator": "delete_action",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "7156f4069e4a0748392b",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:471",
+      "operator": "adjacent_order_swap",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "1c64737b930f3dace4d2",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:471",
+      "operator": "truncate_suffix",
+      "program_index": 16,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "476a14fbf6f823216b20",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:471",
+      "operator": "role_substitution",
+      "program_index": 18,
+      "replacement_action": "move wire to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "7fb4af9fe69df93cddf7",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:483",
+      "operator": "delete_action",
+      "program_index": 15,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "4b4ee403184d5cc75ae8",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:483",
+      "operator": "adjacent_order_swap",
+      "program_index": 18,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "94ab6ba207fa7a686d85",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:483",
+      "operator": "truncate_suffix",
+      "program_index": 18,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "6cbaa9258ffd20f09636",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:483",
+      "operator": "role_substitution",
+      "program_index": 20,
+      "replacement_action": "move wire to blue box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "caf43902f9e1b3f569c4",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:435",
+      "operator": "delete_action",
+      "program_index": 11,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "eab755ac80be82a99631",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:435",
+      "operator": "adjacent_order_swap",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "894bcb55f94963fcb552",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:435",
+      "operator": "truncate_suffix",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "f457524b912e14f08c94",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:435",
+      "operator": "role_substitution",
+      "program_index": 16,
+      "replacement_action": "move wood to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "e4a1b381fab798c41fed",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:408",
+      "operator": "delete_action",
+      "program_index": 17,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "5a726e656556aeb58fde",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:408",
+      "operator": "adjacent_order_swap",
+      "program_index": 18,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "2724e2d9ff25c1b7eebd",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:408",
+      "operator": "truncate_suffix",
+      "program_index": 18,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "9e7d748e342dbc14ca4a",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:408",
+      "operator": "role_substitution",
+      "program_index": 20,
+      "replacement_action": "move wire to yellow box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "69e48db04c4882506b89",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:510",
+      "operator": "delete_action",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "aec2b9a8e0c1e0cb0e06",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:510",
+      "operator": "adjacent_order_swap",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "513511b7e0019b3d1a74",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:510",
+      "operator": "truncate_suffix",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "f3b5b3e6b2d25b100cdd",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:510",
+      "operator": "role_substitution",
+      "program_index": 16,
+      "replacement_action": "move wood to green box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "2f2e358389bc23869fb1",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:473",
+      "operator": "delete_action",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "6e699320a78bbc580a13",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:473",
+      "operator": "adjacent_order_swap",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "fb8d6db6b14c34de11d6",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:473",
+      "operator": "truncate_suffix",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "d34138f087827a5c35fb",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:473",
+      "operator": "role_substitution",
+      "program_index": 16,
+      "replacement_action": "move wire to orange box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "6b311c77f78a96f41a0a",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:461",
+      "operator": "delete_action",
+      "program_index": 15,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "45cf94296a5543b27d71",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:461",
+      "operator": "adjacent_order_swap",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "e631652c81fbb78f0d32",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:461",
+      "operator": "truncate_suffix",
+      "program_index": 16,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "ac34bbfc3d6a7f6001a5",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:461",
+      "operator": "role_substitution",
+      "program_index": 18,
+      "replacement_action": "move wood to orange box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "eebdc720c4f41d53c821",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:535",
+      "operator": "delete_action",
+      "program_index": 13,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "a59bf9abef6d2ad297af",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:535",
+      "operator": "adjacent_order_swap",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "7edd2055a1b60d03c2ea",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:535",
+      "operator": "truncate_suffix",
+      "program_index": 14,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "8831944961185067e070",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:535",
+      "operator": "role_substitution",
+      "program_index": 16,
+      "replacement_action": "move unknown substance b to orange box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    },
+    {
+      "spec_id": "a2ce78da2c12e7a3dc9d",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:411",
+      "operator": "delete_action",
+      "program_index": 18,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "579ad9e40fa89fd486bb",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:411",
+      "operator": "adjacent_order_swap",
+      "program_index": 17,
+      "replacement_action": null,
+      "selection_rule": "seeded admissible index within final six healthy actions"
+    },
+    {
+      "spec_id": "57e0191d1afc53b9c656",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:411",
+      "operator": "truncate_suffix",
+      "program_index": 18,
+      "replacement_action": null,
+      "selection_rule": "three-action tail truncation"
+    },
+    {
+      "spec_id": "ea7904c7a4c64505b6a3",
+      "environment": "scienceworld",
+      "family": "use-thermometer",
+      "task_id": "use-thermometer:411",
+      "operator": "role_substitution",
+      "program_index": 20,
+      "replacement_action": "move unknown substance b to purple box",
+      "selection_rule": "replace final objective-bearing action with a fixed wrong role"
+    }
+  ],
+  "spec_count": 240,
+  "by_environment": {
+    "alfworld": 120,
+    "scienceworld": 120
+  },
+  "by_operator": {
+    "delete_action": 60,
+    "adjacent_order_swap": 60,
+    "truncate_suffix": 60,
+    "role_substitution": 60
+  },
+  "input_sha256": {
+    "config": "3addc4b399a40c0f78f6f0d24d52326673561043cfdcbd74021289b25c57d00a",
+    "method_lock": "0c87e77e295bc9356cedef3a211e54a07b2322f6c700a0d1cd788a6c89fa5c78",
+    "roster": "b3ac10ac8118dcf3386d11917e6287fc1dbd0ff96063305bb749ee0c004f83c7",
+    "oracle_completion": "651c9e5fee9b48c429a8bb5aeb6c89783e01f5d5aaccad1a61afbeccbe918d4c",
+    "oracle_trajectories": "77232a87fd2b41c78f4406886461e81a2c540d0983e5c6321c73743a40da1c69",
+    "generator": "04a11aa921d2fb43585740742ee8ab64cf656af33348aa84cf3a974dde529bcf"
+  }
+}

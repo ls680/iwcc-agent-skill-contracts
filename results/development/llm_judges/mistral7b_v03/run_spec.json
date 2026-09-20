@@ -1,0 +1,13 @@
+{
+  "status": "development_llm_program_judge",
+  "model": {
+    "id": "mistralai/Mistral-7B-Instruct-v0.3",
+    "revision": "c170c708c41dac9275d15a8fff4eca08d52bab71",
+    "label": "mistral7b_v03"
+  },
+  "seed": 0,
+  "maximum_generation_tokens": 96,
+  "public_candidates_sha256": "5c39476882dcec9e70675c5577b70b506d635e7e08e6d675491757a1c71a5178",
+  "system_sha256": "e9780b7993647c20b3b7a6035d48cd95b087e3b3e083d9644b720b00205055e5",
+  "private_labels_opened": false
+}

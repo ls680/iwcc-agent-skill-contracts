@@ -1,0 +1,5 @@
+Successful agent traces are compiled into witnessed structural skill contracts.
+IWCC checks navigation, possession, transformation, ordering, and goal roles.
+A frozen zero-overlap confirmation contains 60 native tasks and 300 programs.
+IWCC improves balanced accuracy by 10.64 points, 95% CI 8.88 to 12.50.
+All 98 healthy or behaviorally equivalent controls pass at 0.487 ms median CPU latency.

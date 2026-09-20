@@ -1,0 +1,7 @@
+portal_designation,file,required,status,notes
+Manuscript PDF,submission/automated_software_engineering/ase_main_manuscript.pdf,yes,prepared,"Compiled 13-page PDF with public repository link; rebuild after adding the archival DOI"
+LaTeX source,submission/automated_software_engineering/ase_main_manuscript_latex.zip,yes,prepared,"Flat source bundle with main.tex, class, bibliography style, BibTeX database, BBL, and Fig1.pdf; rebuild after adding the archival DOI"
+Cover letter,submission/automated_software_engineering/ase_cover_letter_draft.pdf,no,draft,"Do not upload until author confirmations and repository details are complete"
+Supplementary material,artifacts/iwcc_reproducibility_bundle.tar.gz,no,pending,"Prefer a public versioned archive DOI; upload separately only after license and third-party redistribution review"
+Separate figure,none,no,not_needed,"Fig1.pdf is embedded and included in the LaTeX source ZIP"
+Graphical abstract,none,no,not_required,"The journal guidelines reviewed do not require a graphical abstract"
